@@ -1,0 +1,25 @@
+# 1. Local configuration containing secrets
+config.py
+
+# 2. Certificates and keys
+*.crt
+*.pem
+*.key
+
+# 3. Python cache and virtual environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 4. IDE and OS specific files
+.vscode/
+.idea/
+.DS_Store
+
+# 5. Database and local data directories
+*.db
+*.sqlite3
+*.sqlite
+data/
+
